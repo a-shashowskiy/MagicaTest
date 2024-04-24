@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a17a39ea67d6af4abf2c26fb27e605e, type: 3}
+  m_Name: SO_Spell
+  m_EditorClassIdentifier: 
+  Spells:
+  - id: 0
+    Name: FireBall
+    Damage: 10
+    ManaCost: 10
+    SpeedFlying: 5
+    Cooldown: 0.1
+    playerArchived: 1
+    SpellPrefab: {fileID: 433422666543034055, guid: 70c3955481c609445b5bdc567cd22bb3,
+      type: 3}
+  - id: 1
+    Name: LightBolt
+    Damage: 20
+    ManaCost: 10
+    SpeedFlying: 15
+    Cooldown: 0.05
+    playerArchived: 1
+    SpellPrefab: {fileID: 7561849730321392506, guid: cb363a0884e1602499ed6ddd275382c8,
+      type: 3}
+  - id: 1
+    Name: LightBulb
+    Damage: 0
+    ManaCost: 1
+    SpeedFlying: 0
+    Cooldown: 0
+    playerArchived: 1
+    SpellPrefab: {fileID: 0}
